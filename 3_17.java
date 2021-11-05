@@ -10,10 +10,6 @@ class StudentGrades{
         this.grades=grades;
     }
 
-    int gradeNumber(){
-        return this.grades.length;
-    }
-
     double maxGrade(){
         return Arrays.stream(this.grades).max().getAsDouble();
     }
