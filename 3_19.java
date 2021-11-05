@@ -37,8 +37,8 @@ class StudentGrades{
         Scanner scanner = new Scanner(System.in); //define scanner
         System.out.println("How many grades?");
         int numOfGrades = scanner.nextInt();    //read how many grades to input
-        double[] grades = new double[numOfGrades];        //create new double array in order to store grades
-        for(int i=0;i<numOfGrades;i++){            //loop reading line, numOfGrades times
+        double[] grades = new double[numOfGrades];
+        for(int i=0;i<numOfGrades;i++){
             System.out.println("Enter your grade: ");
             grades[i]=scanner.nextDouble();
         }
